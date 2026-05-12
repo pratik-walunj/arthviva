@@ -170,7 +170,7 @@ const ProductBasket = () => {
                 <div className="pt-6">
                   <Link to="/contact">
                     <button className="group flex items-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-full font-bold hover:bg-blue-700 transition-all shadow-lg hover:shadow-blue-200 active:scale-95">
-                      Explore Details
+                      Contact Us
                       <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                     </button>
                   </Link>

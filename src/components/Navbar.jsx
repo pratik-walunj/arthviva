@@ -92,13 +92,6 @@ function Navbar() {
                 >
                   Image Gallery
                 </a>
-
-                <a
-                  href="/fund-manager-interviews"
-                  className="block px-6 py-3 hover:bg-gray-100 transition"
-                >
-                  Fund Manager Interviews
-                </a>
               </div>
             </li>
 
@@ -141,11 +134,9 @@ function Navbar() {
                 {/* Nj Client Desk - OPEN IN NEW TAB */}
                 <a
                   href="https://cdesk.njwealth.in/cdesk/login"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="block px-6 py-3 hover:bg-gray-100 transition"
                 >
-                  Nj Client Desk
+                  NJ Client Desk
                 </a>
 
                 <a
@@ -224,7 +215,6 @@ function Navbar() {
                 <div className="ml-4 mt-3 flex flex-col gap-3 text-gray-600">
                   <a href="/video-clips">Video Clips</a>
                   <a href="/image-gallery">Image Gallery</a>
-                  <a href="/fund-manager-interviews">Fund Manager Interviews</a>
                 </div>
               )}
             </li>
@@ -241,8 +231,19 @@ function Navbar() {
 
               {toolsOpen && (
                 <div className="ml-4 mt-3 flex flex-col gap-3 text-gray-600">
-                  <a href="/mf-calculators">MF Calculators</a>
-                  <a href="/tools-calculators">Tools and Calculators</a>
+                  <a
+                    href="https://www.njwealth.in/mfcalculator"
+                    className="hover:text-blue-900"
+                  >
+                    MF Calculators
+                  </a>
+
+                  <a
+                    href="https://share.google/EwCYSJH9xbLpgmonv"
+                    className="hover:text-blue-900"
+                  >
+                    Tools and Calculators
+                  </a>
                 </div>
               )}
             </li>
@@ -259,8 +260,21 @@ function Navbar() {
 
               {loginOpen && (
                 <div className="ml-4 mt-3 flex flex-col gap-3 text-gray-600">
-                  <a href="/nj-client-desk">NJ Client Desk</a>
-                  <a href="/nj-e-wealth">NJ E-Wealth</a>
+                  <a
+                    href="https://cdesk.njwealth.in/cdesk/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    NJ Client Desk
+                  </a>
+
+                  <a
+                    href="https://ewa.njindiaonline.com/ewa/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    NJ E-Wealth
+                  </a>
                 </div>
               )}
             </li>

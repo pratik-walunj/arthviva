@@ -7,7 +7,6 @@ import ProductBasket from "./pages/ProductBasket";
 import ClientService from "./pages/ClientService";
 import VideoClips from "./pages/VideoClips";
 import ImageGallery from "./pages/ImageGallery";
-import FundManagerInterviews from "./pages/FundManagerInterviews";
 import ContactUs from "./pages/ContactUs";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -24,10 +23,6 @@ function App() {
           <Route path="client-service" element={<ClientService />} />
           <Route path="video-clips" element={<VideoClips />} />
           <Route path="image-gallery" element={<ImageGallery />} />
-          <Route
-            path="fund-manager-interviews"
-            element={<FundManagerInterviews />}
-          />
           <Route path="contact" element={<ContactUs />} />
         </Route>
       </Routes>

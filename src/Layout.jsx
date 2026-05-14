@@ -27,6 +27,18 @@ function Layout() {
         />
       </a>
       {/* FLOATING IMAGE END */}
+      <a
+        href="https://wa.me/918432339777"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-5 right-5 z-50"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WhatsApp"
+          className="w-14 h-14 md:w-16 md:h-16 hover:scale-110 transition duration-300 drop-shadow-2xl"
+        />
+      </a>
       <Footer />
     </>
   );

@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import pyramid from "../images/Financial_Pyramid.png";
 import about from "../images/quant-fund.png";
 import mutal_funds from "../images/mutual-fund.jpg";
@@ -9,8 +12,8 @@ import las from "../images/las.jpg";
 import fullfill from "../images/full_fill .jpeg";
 import child_feature from "../images/Childs.png";
 import welth from "../images/welth.png";
-import our_home from "../images/own_home.png";
-import value_added from "../images/value_added.png";
+import our_home from "../images/happy_retirement.png";
+import value_added from "../images/Value_Added_services.png";
 import A_Z_planning from "../images/A_Z_planning.png";
 
 import {
@@ -30,6 +33,12 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      once: true,
+    });
+  }, []);
   const products = [
     {
       title: "Mutual Funds",
@@ -114,7 +123,7 @@ const Home = () => {
             <div
               className="h-[80vh] md:h-screen bg-cover md:bg-cover bg-contain bg-center bg-no-repeat relative flex items-center justify-center"
               style={{
-                backgroundImage: `url(${fullfill})`,
+                backgroundImage: `url(${welth})`,
               }}
             >
               <div className="absolute inset-0 bg-black/60"></div>
@@ -164,7 +173,7 @@ const Home = () => {
             <div
               className="h-[80vh] md:h-screen bg-cover md:bg-cover bg-contain bg-center bg-no-repeat relative flex items-center justify-center"
               style={{
-                backgroundImage: `url(${welth})`,
+                backgroundImage: `url(${fullfill})`,
               }}
             >
               <div className="absolute inset-0 bg-black/60"></div>
@@ -191,11 +200,11 @@ const Home = () => {
 
               <div className="relative z-10 text-center px-6 max-w-4xl">
                 <h1 className="text-5xl md:text-7xl font-bold text-white">
-                  Own a Home
+                  Happy Retirement
                 </h1>
 
                 <p className="text-gray-200 text-xl mt-6">
-                  Grow your wealth with trusted investment strategies.
+                  Happy Retirement with Smart Financial Planning.
                 </p>
               </div>
             </div>
@@ -238,7 +247,7 @@ const Home = () => {
       {/* PYRAMID SECTION */}
       <section className="py-24 bg-gray-50 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div>
+          <div data-aos="fade-right" className="flex justify-center">
             <img
               src={pyramid}
               alt="Financial Pyramid"

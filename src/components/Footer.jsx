@@ -150,6 +150,12 @@ function Footer() {
 
                 <p>support@arthviva.com</p>
               </div>
+
+              <div className="flex items-center gap-4">
+                <FaEnvelope className="text-yellow-400" />
+
+                <p>ruju.g7@gmail.com</p>
+              </div>
             </div>
           </div>
         </div>
@@ -157,6 +163,9 @@ function Footer() {
         {/* Bottom Footer */}
         <div className="border-t border-white/10 mt-14 pt-6 text-center text-gray-400 text-sm">
           <p>© 2026 ArthViva. All Rights Reserved.</p>
+          <p className="text-xs text-gray-500 text-center">
+            Developed by Pratik Walunj
+          </p>
         </div>
       </div>
     </footer>

@@ -15,7 +15,7 @@ import mutual_funds from "../images/mutual-fund.jpg";
 import etf from "../images/etf.jpg";
 import insurance from "../images/insurance.jpg";
 import las from "../images/las.jpg";
-import value_added from "../images/value_added.png";
+import value_added from "../images/Value_Added_services.png";
 import A_Z_planning from "../images/A_Z_planning.png";
 
 const ProductBasket = () => {

@@ -2,66 +2,111 @@ import React from "react";
 
 // IMPORT YOUR LOCAL IMAGES
 import gallery1 from "../images/image_1.jpg";
-import gallery2 from "../images/image_2.jpg";
-import gallery3 from "../images/image_3.jpg";
-import gallery4 from "../images/image_4.jpg";
+import gallery2 from "../images/image11.jpg";
+import gallery3 from "../images/image12.jpg";
+import gallery4 from "../images/image13.jpg";
 import gallery5 from "../images/image_5.jpg";
-import gallery6 from "../images/image_6.jpg";
-import gallery7 from "../images/image_7.jpg";
+import gallery6 from "../images/image14.jpg";
+import gallery7 from "../images/image15.jpg";
 import gallery8 from "../images/image_8.jpg";
-import gallery9 from "../images/image_9.jpg";
-import gallery10 from "../images/image_10.jpg";
+import gallery9 from "../images/image16.jpg";
+import gallery10 from "../images/image17.jpg";
+import gallery11 from "../images/image18.jpg";
+import gallery12 from "../images/image19.jpg";
+import gallery13 from "../images/image20.jpg";
+import gallery14 from "../images/image21.jpg";
+import gallery15 from "../images/image22.jpg";
+import gallery16 from "../images/image23.jpg";
+import gallery17 from "../images/image24.jpg";
+import gallery18 from "../images/image25.jpg";
+import gallery19 from "../images/image26.jpg";
 
 const ImageGallery = () => {
   const galleryImages = [
     {
       image: gallery1,
-      title: "SIP Investment",
+      title: "",
     },
 
     {
       image: gallery2,
-      title: "Happy Mothers Day",
+      title: "",
     },
 
     {
       image: gallery3,
-      title: "Mutual Funds",
+      title: "",
     },
 
     {
       image: gallery4,
-      title: "World Lafter Day",
+      title: "",
     },
 
     {
       image: gallery5,
-      title: "SIP Investment",
+      title: "",
     },
 
     {
       image: gallery6,
-      title: "Worlds labor day",
+      title: "",
     },
 
     {
       image: gallery7,
-      title: "Happy Baudhha Purnima",
+      title: "",
     },
 
     {
       image: gallery8,
-      title: "SIP Investment",
+      title: "",
     },
 
     {
       image: gallery9,
-      title: "Wealth building formula",
+      title: "",
     },
 
     {
       image: gallery10,
-      title: "Mutual Funds",
+      title: "",
+    },
+    {
+      image: gallery11,
+      title: "",
+    },
+    {
+      image: gallery12,
+      title: "",
+    },
+    {
+      image: gallery13,
+      title: "",
+    },
+    {
+      image: gallery14,
+      title: "",
+    },
+    {
+      image: gallery15,
+      title: "",
+    },
+    {
+      image: gallery16,
+      title: "",
+    },
+    {
+      image: gallery17,
+      title: "",
+    },
+    {
+      image: gallery18,
+      title: "",
+    },
+    {
+      image: gallery19,
+      title: "",
     },
   ];
 

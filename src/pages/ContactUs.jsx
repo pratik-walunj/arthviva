@@ -84,6 +84,8 @@ const ContactUs = () => {
               </h3>
 
               <p className="text-gray-600 leading-8">support@arthviva.com</p>
+
+              <p className="text-gray-600 leading-8">ruju.g7@gmail.com</p>
             </div>
 
             {/* HOURS */}
